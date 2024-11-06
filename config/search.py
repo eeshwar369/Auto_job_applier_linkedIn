@@ -16,10 +16,10 @@ GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
 
 # These Sentences are Searched in LinkedIn
 # Enter your search terms inside '[ ]' with quotes ' "searching title" ' for each search followed by comma ', ' Eg: ["Software Engineer", "Software Developer", "Selenium Developer"]
-search_terms = ["Software Engineer", "Software Developer", "Python Developer", "Selenium Developer", "React Developer", "Java Developer", "Front End Developer", "Full Stack Developer", "Web Developer", "Nodejs Developer"]
+search_terms = ["Software Engineer", "Software Developer", "Python Developer", "Selenium Developer", "React Developer", "Java Developer", "Front End Developer", "Full Stack Developer", "Web Developer", "Nodejs Developer","ML Developer","GenAI Developer"]
 
 # Search location, this will be filled in "City, state, or zip code" search box. If left empty as "", tool will not fill it.
-search_location = ""               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
+search_location = "India"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
 
 # After how many number of applications in current search should the bot switch to next search? 
 switch_number = 30                 # Only numbers greater than 0... Don't put in quotes

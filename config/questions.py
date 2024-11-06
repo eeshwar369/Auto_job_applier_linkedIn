@@ -18,23 +18,23 @@ GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
 # >>>>>>>>>>> Easy Apply Questions & Inputs <<<<<<<<<<<
 
 # Give an relative path of your default resume to be uploaded. If file in not found, will continue using your previously uploaded resume in LinkedIn.
-default_resume_path = "all resumes/default/resume.pdf"      # (In Development)
+default_resume_path = "\Downloads\ML_Resume (2).pdf"    # (In Development)
 
 # What do you want to answer for questions that ask about years of experience you have, this is different from current_experience? 
-years_of_experience = "5"          # A number in quotes Eg: "0","1","2","3","4", etc.
+years_of_experience = "3"          # A number in quotes Eg: "0","1","2","3","4", etc.
 
 # Do you need visa sponsorship now or in future?
 require_visa = "No"               # "Yes" or "No"
 
 # What is the link to your portfolio website, leave it empty as "", if you want to leave this question unanswered
-website = "https://github.com/GodsScion"                        # "www.example.bio" or "" and so on....
+website = "https://github.com/eeshwar369"                        # "www.example.bio" or "" and so on....
 
 # Please provide the link to your LinkedIn profile.
-linkedIn = "https://www.linkedin.com/in/saivigneshgolla/"       # "https://www.linkedin.com/in/example" or "" and so on...
+linkedIn = "https://www.linkedin.com/in/eeshwar369//"       # "https://www.linkedin.com/in/example" or "" and so on...
 
 # What is the status of your citizenship? # If left empty as "", tool will not answer the question. However, note that some companies make it compulsory to be answered
 # Valid options are: "U.S. Citizen/Permanent Resident", "Non-citizen allowed to work for any employer", "Non-citizen allowed to work for current employer", "Non-citizen seeking work authorization", "Canadian Citizen/Permanent Resident" or "Other"
-us_citizenship = "U.S. Citizen/Permanent Resident"
+us_citizenship = "Other"
 
 
 
@@ -53,7 +53,7 @@ And if asked in months, then it will divide by 12 and answer. Examples:
 '''
 
 # What is your current CTC? Some companies make it compulsory to be answered in numbers...
-current_ctc = 800000            # 800000, 900000, 1000000 or 1200000 and so on... Do NOT use quotes
+current_ctc = 0          # 800000, 900000, 1000000 or 1200000 and so on... Do NOT use quotes
 '''
 Note: If question has the word "lakhs" in it (Example: What is your current CTC in lakhs), 
 then it will add '.' before last 5 digits and answer. Examples: 
@@ -81,18 +81,21 @@ then it will divide by 30 or 7 and answer respectively. Examples:
 '''
 
 # Your LinkedIn headline in quotes Eg: "Software Engineer @ Google, Masters in Computer Science", "Recent Grad Student @ MIT, Computer Science"
-headline = "Full Stack Developer with Masters in Computer Science and 4+ years of experience" # "Headline" or "" to leave this question unanswered
-
+headline = "Aspiring Software Engineer And AI Developer" # "Headline" or "" to leave this question unanswered
+cover_letter = "\Downloads\ML_Resume (2).pdf"
+recent_employer = "Not Applicable"
+confidence_level = "8" 
+pause_before_submit = True 
+overwrite_previous_answers = False
+pause_at_failed_question = False
 # Your summary in quotes, use \n to add line breaks
-summary = "I'm a Senior Software Engineer at Amazon with Masters in CS and 4+ years of experience in developing and maintaining Full Stack Web applications and cloud solutions.\n Specialized in React, Node.js, and Python."
-'''
-Note: If left empty as "", the tool will not answer the question. However, note that some companies make it compulsory to be answered. Use \n to add line breaks.
+summary = "I'm a Final Year Student,  in Artificial Intelligence & Data Science from Vardhaman College of Engineering. I have 1+ years of experience in developing and maintaining Full Stack Web applications and Developing AI tools. Specialized in React, Node.js, and Python, with a focus on building scalable applications and leveraging cloud technologies."
+# Note: If left empty as "", the tool will not answer the question. However, note that some companies make it compulsory to be answered. Use \n to add line breaks.
 ''' 
+# letter = "\Downloads\ML_Resume (2).pdf"
 
-# Your cover letter in quotes, use \n to add line breaks (This question makes sense though)
-cover_letter = "Cover Letter"
 '''
-Note: If left empty as "", the tool will not answer the question. However, note that some companies make it compulsory to be answered. Use \n to add line breaks.
+# Note: If left empty as "", the tool will not answer the question. However, note that some companies make it compulsory to be answered. Use \n to add line breaks.
 ''' 
 
 # Name of your most recent employer
@@ -104,19 +107,19 @@ confidence_level = "8"             # Any number between "1" to "10" including 1 
 
 
 
-# >>>>>>>>>>> RELATED SETTINGS <<<<<<<<<<<
+# # >>>>>>>>>>> RELATED SETTINGS <<<<<<<<<<<
 
-## Allow Manual Inputs
-# Should the tool pause before every submit application during easy apply to let you check the information?
-pause_before_submit = True         # True or False ,   Will be treated as False if run_in_background is True
+# ## Allow Manual Inputs
+# # Should the tool pause before every submit application during easy apply to let you check the information?
+# pause_before_submit = True         # True or False ,   Will be treated as False if run_in_background is True
 
-# Should the tool pause if it needs help in answering questions during easy apply?
-# Note: If set as False will answer randomly...
-pause_at_failed_question = True    # True or False ,   Will be treated as False if run_in_background is True
-##
+# # Should the tool pause if it needs help in answering questions during easy apply?
+# # Note: If set as False will answer randomly...
+# pause_at_failed_question = True    # True or False ,   Will be treated as False if run_in_background is True
+# ##
 
-# Do you want to overwrite previous answers?
-overwrite_previous_answers = False # True or False
+# # Do you want to overwrite previous answers?
+# # overwrite_previous_answers = False # True or False
 
 
 
@@ -124,18 +127,18 @@ overwrite_previous_answers = False # True or False
 
 
 ############################################################################################################
-'''
-THANK YOU for using my tool 😊! Wishing you the best in your job hunt 🙌🏻!
+# '''
+# THANK YOU for using my tool 😊! Wishing you the best in your job hunt 🙌🏻!
 
-Sharing is caring! If you found this tool helpful, please share it with your peers 🥺. Your support keeps this project alive.
+# Sharing is caring! If you found this tool helpful, please share it with your peers 🥺. Your support keeps this project alive.
 
-Support my work on <PATREON_LINK>. Together, we can help more job seekers.
+# Support my work on <PATREON_LINK>. Together, we can help more job seekers.
 
-As an independent developer, I pour my heart and soul into creating tools like this, driven by the genuine desire to make a positive impact.
+# As an independent developer, I pour my heart and soul into creating tools like this, driven by the genuine desire to make a positive impact.
 
-Your support, whether through donations big or small or simply spreading the word, means the world to me and helps keep this project alive and thriving.
+# Your support, whether through donations big or small or simply spreading the word, means the world to me and helps keep this project alive and thriving.
 
-Gratefully yours 🙏🏻,
-Sai Vignesh Golla
-'''
+# Gratefully yours 🙏🏻,
+# Sai Vignesh Golla
+# '''
 ############################################################################################################
