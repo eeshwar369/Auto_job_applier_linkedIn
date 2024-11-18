@@ -16,7 +16,32 @@ GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
 
 # These Sentences are Searched in LinkedIn
 # Enter your search terms inside '[ ]' with quotes ' "searching title" ' for each search followed by comma ', ' Eg: ["Software Engineer", "Software Developer", "Selenium Developer"]
-search_terms = ["Software Engineer", "Software Developer", "Python Developer", "Selenium Developer", "React Developer", "Java Developer", "Front End Developer", "Full Stack Developer", "Web Developer", "Nodejs Developer","ML Developer","GenAI Developer"]
+# search_terms = ["Machine Learning Engineer", "AI Engineer","Data Scientist", "ML Research Scientist","GenAI Developer", "ML Ops Engineer","Software Engineer", "Software Developer", "Python Developer", "Selenium Developer", "React Developer", "Java Developer", "Front End Developer", "Full Stack Developer", "Web Developer", "Nodejs Developer","ML Developer","GenAI Developer"]
+# search_terms = [
+#     "Software Engineer", "Software Developer", "Python Developer", "Java Developer", "C++ Developer",
+#     "JavaScript Developer", "React Developer", "Node.js Developer", "Front End Developer", "Back End Developer",
+#     "Full Stack Developer", "Web Developer", "Mobile App Developer", "iOS Developer", "Android Developer",
+#     "DevOps Engineer", "Selenium Developer", "Go Developer", "Rust Developer", "Ruby Developer", "C# Developer",
+#     "PHP Developer", "Swift Developer", "Kotlin Developer", "Django Developer", "Flask Developer", "Angular Developer",
+#     "Vue.js Developer", "TypeScript Developer", "Perl Developer", "Scala Developer", "Objective-C Developer",
+#     "R Developer", "Game Developer", "Embedded Software Developer", "Machine Learning Engineer", "AI Engineer",
+#     "Data Scientist", "ML Research Scientist", "GenAI Developer", "ML Ops Engineer", "ML Developer"
+# ]
+
+search_terms = [
+    "Machine Learning Engineer", "AI Engineer", "Data Scientist", "ML Research Scientist",
+    "Deep Learning Engineer", "NLP Engineer", "Computer Vision Engineer", "Data Analyst",
+    "ML Ops Engineer", "AI/ML Architect", "Generative AI Developer", "AI Research Scientist",
+    "Robotics Engineer", "Reinforcement Learning Engineer", "AI Specialist", "Data Engineer",
+    "AI/ML Developer", "Algorithm Engineer", "Predictive Analytics Specialist", "Big Data Engineer",
+    "Deep Learning Specialist", "Speech Recognition Engineer", "Natural Language Processing Developer",
+    "Machine Learning Developer", "AI Solutions Architect", "Cognitive Computing Developer",
+    "Data Mining Engineer", "AI Product Manager", "AI Software Developer", "Conversational AI Developer",
+    "ML Model Developer", "AI Strategist", "AI Programmer", "Vision AI Developer", "Machine Learning Programmer",
+    "AI Consultant", "Neural Network Engineer", "ML Infrastructure Engineer", "Automated ML Developer",
+    "AI Ethics Specialist", "AI Training Data Annotator", "AI Research Fellow", "AI Deployment Engineer",
+    "AI Simulation Specialist", "ML Optimization Expert", "AI Performance Engineer"
+]
 
 # Search location, this will be filled in "City, state, or zip code" search box. If left empty as "", tool will not fill it.
 search_location = "India"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
@@ -46,14 +71,14 @@ This is below format: QUESTION = VALID_ANSWER
 '''
 
 sort_by = ""                       # "Most recent", "Most relevant" or ("" to not select) 
-date_posted = "Past week"         # "Any time", "Past month", "Past week", "Past 24 hours" or ("" to not select)
+date_posted = "Any time"         # "Any time", "Past month", "Past week", "Past 24 hours" or ("" to not select)
 salary = ""                        # "$40,000+", "$60,000+", "$80,000+", "$100,000+", "$120,000+", "$140,000+", "$160,000+", "$180,000+", "$200,000+"
 
-easy_apply_only = False             # True or False
+easy_apply_only = True # True or False
 
-experience_level = []              # (multiple select) "Internship", "Entry level", "Associate", "Mid-Senior level", "Director", "Executive"
+experience_level = ["Internship"]              # (multiple select) "Internship", "Entry level", "Associate", "Mid-Senior level", "Director", "Executive"
 job_type = []                      # (multiple select) "Full-time", "Part-time", "Contract", "Temporary", "Volunteer", "Internship", "Other"
-on_site = []                       # (multiple select) "On-site", "Remote", "Hybrid"
+on_site = ["Remote"]                       # (multiple select) "On-site", "Remote", "Hybrid"
 
 companies = []                     # (dynamic multiple select) make sure the name you type in list exactly matches with the company name you're looking for, including capitals. 
                                    # Eg: "7-eleven", "Google","X, the moonshot factory","YouTube","CapitalG","Adometry (acquired by Google)","Meta","Apple","Byte Dance","Netflix", "Snowflake","Mineral.ai","Microsoft","JP Morgan","Barclays","Visa","American Express", "Snap Inc", "JPMorgan Chase & Co.", "Tata Consultancy Services", "Recruiting from Scratch", "Epic", and so on...

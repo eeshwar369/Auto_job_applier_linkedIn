@@ -18,7 +18,7 @@ GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
 # >>>>>>>>>>> Easy Apply Questions & Inputs <<<<<<<<<<<
 
 # Give an relative path of your default resume to be uploaded. If file in not found, will continue using your previously uploaded resume in LinkedIn.
-default_resume_path = "\Downloads\ML_Resume (2).pdf"    # (In Development)
+default_resume_path = ""    # (In Development)
 
 # What do you want to answer for questions that ask about years of experience you have, this is different from current_experience? 
 years_of_experience = "3"          # A number in quotes Eg: "0","1","2","3","4", etc.
@@ -85,7 +85,7 @@ headline = "Aspiring Software Engineer And AI Developer" # "Headline" or "" to l
 cover_letter = "\Downloads\ML_Resume (2).pdf"
 recent_employer = "Not Applicable"
 confidence_level = "8" 
-pause_before_submit = True 
+pause_before_submit = False
 overwrite_previous_answers = False
 pause_at_failed_question = False
 # Your summary in quotes, use \n to add line breaks
